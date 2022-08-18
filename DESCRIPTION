@@ -1,0 +1,25 @@
+Package: popdensity
+Type: Package
+Title: Estimating and plotting population densities
+Version: 0.1.0
+Author: Martin Sköld
+Maintainer: Martin Sköld <martin.skold@nrm.se>
+Description: The package is developed for estimating population densities 
+    within the Swedish bear population survey under potentially spatially
+    varying effort. It is currently based around an assumed planar coordinate
+    system (e.g. SWEREF99 TM)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
+Imports:
+    dplyr,
+    countreg,
+    ggplot2,
+    mgcv,
+    readxl,
+    sf,
+    rlang,
+    stringr
+Depends: 
+    R (>= 2.10)
