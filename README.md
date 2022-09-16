@@ -2,6 +2,11 @@ popdensity
 ================
 Martin Sköld
 
+[Bonus material (nationwide maps) for NCWR 2022
+conference.](https://htmlpreview.github.io/?https://github.com/mskoldSU/bear_poster/blob/master/all_counties.html)
+
+## Package
+
 This is a simple package for estimating population densities based on
 non-invasive genetic sampling of individuals. The problem is motivated
 by the Swedish brown bear survey, which is based on scat-samples
@@ -74,7 +79,7 @@ head(bears2021)
 Norrbotten is accessed as
 
 ``` r
-norrbotten <- pd_SWE_counties(county_name = "Norrbotten", quiet = TRUE)
+norrbotten <- pd_SWE_counties(county_name = "Norrbotten")
 ```
 
 and the spatial smooths are fitted by
